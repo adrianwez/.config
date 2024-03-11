@@ -14,8 +14,13 @@ Plug 'https://github.com/vim-airline/vim-airline' " Status Bar
 Plug 'https://github.com/ap/vim-css-color' " Css Colors Highlight
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " Auto Complition
 Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
+Plug 'ellisonleao/gruvbox.nvim'
 
 call plug#end()
+
+" Appearance
+set background=dark " or light if you want light mode
+colorscheme gruvbox
 
 " Keybindings
 nnoremap <C-f> :NERDTreeFind<CR>
